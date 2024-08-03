@@ -917,7 +917,6 @@ bool nrf_log_frontend_dequeue(void)
             nrf_log_backend_flush(p_backend);
             p_backend = p_backend->p_cb->p_next;
         }
-        NRF_LOG_WARNING("Backends flushed");
     }
 
     return buffer_is_empty() ? false : true;
