@@ -99,7 +99,7 @@
 // <e> NRF_BL_DFU_ENTER_METHOD_BUTTON - Enter DFU mode on button press.
 //==========================================================
 #ifndef NRF_BL_DFU_ENTER_METHOD_BUTTON
-#define NRF_BL_DFU_ENTER_METHOD_BUTTON 1
+#define NRF_BL_DFU_ENTER_METHOD_BUTTON 0
 #endif
 // <o> NRF_BL_DFU_ENTER_METHOD_BUTTON_PIN  - Button for entering DFU mode.
  
@@ -162,7 +162,7 @@
  
 
 #ifndef NRF_BL_DFU_ENTER_METHOD_PINRESET
-#define NRF_BL_DFU_ENTER_METHOD_PINRESET 0
+#define NRF_BL_DFU_ENTER_METHOD_PINRESET 1
 #endif
 
 // <q> NRF_BL_DFU_ENTER_METHOD_GPREGRET  - Enter DFU mode when bit 0 is set in the NRF_POWER_GPREGRET register.
@@ -176,7 +176,7 @@
  
 
 #ifndef NRF_BL_DFU_ENTER_METHOD_BUTTONLESS
-#define NRF_BL_DFU_ENTER_METHOD_BUTTONLESS 0
+#define NRF_BL_DFU_ENTER_METHOD_BUTTONLESS 1
 #endif
 
 // </h> 
